@@ -3,8 +3,8 @@ const elements = ['Fire', 'Air', 'Water', 'earth'];
 let resp = '';
 const separator = '--';
 for (let index = 0; index < elements.length; index++) {
-  const element = elements[index];
-  resp = resp + element + separator;
+   const element = elements[index];
+   resp = resp + element + separator;
 }
 
 console.log('For', resp);
